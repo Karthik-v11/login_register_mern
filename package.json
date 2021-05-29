@@ -1,0 +1,45 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "login and registration form using mern stack",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Karthik-v11/Login_and_registration_mern.git"
+  },
+  "author": "Karthik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karthik-v11/Login_and_registration_mern/issues"
+  },
+  "homepage": "https://github.com/Karthik-v11/Login_and_registration_mern#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "classnames": "^2.3.1",
+    "concurrently": "^6.1.0",
+    "express": "^4.17.1",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^5.12.10",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
